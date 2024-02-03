@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="example.cashcard.CashCardApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-03T16:57:19" hostname="codespaces-31b204" time="1.445">
+<testsuite name="example.cashcard.CashCardApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-03T17:31:48" hostname="codespaces-31b204" time="1.898">
   <properties/>
-  <testcase name="shouldReturnACashCardWhenDataIsSaved()" classname="example.cashcard.CashCardApplicationTests" time="1.427"/>
-  <testcase name="shouldNotReturnACashCardWithAnUnknownId()" classname="example.cashcard.CashCardApplicationTests" time="0.015"/>
-  <system-out><![CDATA[16:57:16.656 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [example.cashcard.CashCardApplicationTests]: CashCardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-16:57:16.774 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration example.cashcard.CashCardApplication for test class example.cashcard.CashCardApplicationTests
+  <testcase name="shouldReturnACashCardWhenDataIsSaved()" classname="example.cashcard.CashCardApplicationTests" time="1.859"/>
+  <testcase name="shouldNotReturnACashCardWithAnUnknownId()" classname="example.cashcard.CashCardApplicationTests" time="0.031"/>
+  <system-out><![CDATA[17:31:45.129 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [example.cashcard.CashCardApplicationTests]: CashCardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:31:45.397 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration example.cashcard.CashCardApplication for test class example.cashcard.CashCardApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,18 +14,21 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::       (v3.1.9-SNAPSHOT)
 
-2024-02-03T16:57:17.348Z  INFO 4831 --- [    Test worker] e.cashcard.CashCardApplicationTests      : Starting CashCardApplicationTests using Java 17.0.9 with PID 4831 (started by codespace in /workspaces/springboot-demo)
-2024-02-03T16:57:17.350Z  INFO 4831 --- [    Test worker] e.cashcard.CashCardApplicationTests      : No active profile set, falling back to 1 default profile: "default"
-2024-02-03T16:57:18.674Z  INFO 4831 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2024-02-03T16:57:18.685Z  INFO 4831 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-02-03T16:57:18.686Z  INFO 4831 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-02-03T16:57:18.811Z  INFO 4831 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-02-03T16:57:18.813Z  INFO 4831 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1405 ms
-2024-02-03T16:57:19.266Z  INFO 4831 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 39085 (http) with context path ''
-2024-02-03T16:57:19.287Z  INFO 4831 --- [    Test worker] e.cashcard.CashCardApplicationTests      : Started CashCardApplicationTests in 2.336 seconds (process running for 3.802)
-2024-02-03T16:57:20.545Z  INFO 4831 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-02-03T16:57:20.546Z  INFO 4831 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-02-03T16:57:20.547Z  INFO 4831 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-03T17:31:45.924Z  INFO 26990 --- [    Test worker] e.cashcard.CashCardApplicationTests      : Starting CashCardApplicationTests using Java 17.0.9 with PID 26990 (started by codespace in /workspaces/springboot-demo)
+2024-02-03T17:31:45.926Z  INFO 26990 --- [    Test worker] e.cashcard.CashCardApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-02-03T17:31:46.791Z  INFO 26990 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-02-03T17:31:46.855Z  INFO 26990 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JDBC repository interface.
+2024-02-03T17:31:47.436Z  INFO 26990 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2024-02-03T17:31:47.446Z  INFO 26990 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-03T17:31:47.448Z  INFO 26990 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-03T17:31:47.609Z  INFO 26990 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-03T17:31:47.611Z  INFO 26990 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1647 ms
+2024-02-03T17:31:47.696Z  INFO 26990 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:507c2230-39e3-4fe2-bf2d-e24a7961e90d;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-02-03T17:31:48.536Z  INFO 26990 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 41297 (http) with context path ''
+2024-02-03T17:31:48.547Z  INFO 26990 --- [    Test worker] e.cashcard.CashCardApplicationTests      : Started CashCardApplicationTests in 2.967 seconds (process running for 4.864)
+2024-02-03T17:31:49.749Z  INFO 26990 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-03T17:31:49.750Z  INFO 26990 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-03T17:31:49.756Z  INFO 26990 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
