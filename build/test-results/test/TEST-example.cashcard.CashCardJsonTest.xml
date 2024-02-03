@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="example.cashcard.CashCardJsonTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-03T16:05:34" hostname="codespaces-31b204" time="0.108">
+<testsuite name="example.cashcard.CashCardJsonTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-03T16:57:20" hostname="codespaces-31b204" time="0.073">
   <properties/>
-  <testcase name="cashCardSerializationTest()" classname="example.cashcard.CashCardJsonTest" time="0.044"/>
-  <testcase name="cashCardDeserializationTest()" classname="example.cashcard.CashCardJsonTest" time="0.052"/>
-  <system-out><![CDATA[2024-02-03T16:05:34.384Z  INFO 38605 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [example.cashcard.CashCardJsonTest]: CashCardJsonTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-02-03T16:05:34.403Z  INFO 38605 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration example.cashcard.CashCardApplication for test class example.cashcard.CashCardJsonTest
+  <testcase name="cashCardSerializationTest()" classname="example.cashcard.CashCardJsonTest" time="0.036"/>
+  <testcase name="cashCardDeserializationTest()" classname="example.cashcard.CashCardJsonTest" time="0.035"/>
+  <system-out><![CDATA[2024-02-03T16:57:20.761Z  INFO 4831 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [example.cashcard.CashCardJsonTest]: CashCardJsonTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-02-03T16:57:20.783Z  INFO 4831 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration example.cashcard.CashCardApplication for test class example.cashcard.CashCardJsonTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,9 +14,9 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::       (v3.1.9-SNAPSHOT)
 
-2024-02-03T16:05:34.468Z  INFO 38605 --- [    Test worker] example.cashcard.CashCardJsonTest        : Starting CashCardJsonTest using Java 17.0.9 with PID 38605 (started by codespace in /workspaces/springboot-demo)
-2024-02-03T16:05:34.469Z  INFO 38605 --- [    Test worker] example.cashcard.CashCardJsonTest        : No active profile set, falling back to 1 default profile: "default"
-2024-02-03T16:05:34.635Z  INFO 38605 --- [    Test worker] example.cashcard.CashCardJsonTest        : Started CashCardJsonTest in 0.222 seconds (process running for 6.041)
+2024-02-03T16:57:20.847Z  INFO 4831 --- [    Test worker] example.cashcard.CashCardJsonTest        : Starting CashCardJsonTest using Java 17.0.9 with PID 4831 (started by codespace in /workspaces/springboot-demo)
+2024-02-03T16:57:20.847Z  INFO 4831 --- [    Test worker] example.cashcard.CashCardJsonTest        : No active profile set, falling back to 1 default profile: "default"
+2024-02-03T16:57:20.961Z  INFO 4831 --- [    Test worker] example.cashcard.CashCardJsonTest        : Started CashCardJsonTest in 0.166 seconds (process running for 5.475)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
